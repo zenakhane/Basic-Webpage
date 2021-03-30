@@ -1,0 +1,220 @@
+.city-name {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.Rome-image {
+	float: left;
+}
+
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	font-style: italic;
+	background-color: goldenrod;
+	font: bolder;
+	padding: 5%;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+}
+
+h2 {
+	font-style: oblique;
+}
+
+h3 {
+	font-style: oblique;
+	text-align: center;
+}
+
+.header {
+	background-color: goldenrod;
+	padding: 1em;
+}
+
+.main {
+	background-color: goldenrod;
+}
+
+.footer {
+	background-color: palevioletred;
+	padding: 1em;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+.content {
+	background-color: goldenrod;
+}
+
+table {
+	width: 80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	height: 30px;
+	vertical-align: middle;
+	font-style: oblique;
+	font-weight: bolder;
+	border: 1px solid black;
+}
+
+th {
+	text-align: left;
+	font-weight: lighter;
+	border: 1px solid black;
+}
+
+.Foreign {
+	float: left;
+	background-color: goldenrod;
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.Historic {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: oblique;
+	text-align: center;
+	background-color: goldenrod;
+	display: flex
+}
+
+.city-name {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.Rome-image {
+	float: left;
+	margin: 5px;
+	padding: 3px;
+}
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+.header {
+	background-color: goldenrod;
+	padding: 20px;
+	margin: 7px;
+}
+
+.main {
+	background-color: goldenrod;
+}
+
+.footer {
+	background-color: goldenrod;
+	padding: 1em;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+.content {
+	background-color: goldenrod;
+}
+
+table {
+	width: 80%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	height: 30px;
+	vertical-align: middle;
+	font-style: oblique;
+	font-weight: bolder;
+	border: 1px solid black;
+}
+
+th {
+	text-align: left;
+	font-weight: lighter;
+	border: 1px solid black;
+}
+
+.Foreign {
+	float: left;
+	background-color: goldenrod;
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.Historic {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: oblique;
+	text-align: center;
+	background-color: goldenrod;
+	display: grid
+}
+
+  .places { 
+      display: flex;
+  }
+
+
+@media(min-width:800px) {
+	.side-bar {
+		float: inline-start;
+		width: 25%;
+		padding: px;
+	}
+}
+
+.content {
+	background-color: goldenrod;
+}
+
+.good-hope {
+	float: right;
+    padding: 5px;
+    margin: 14px;
+}
+
+.museum6 {
+	float: right;
+    padding: 5px;
+    margin: 13px;
+}
+
+.city-hall {
+	float: right;
+    padding: 7px;
+    margin: 5px;
+}
+
+.content {
+	background-color: goldenrod;
+}
+
+
+
+@media only screen and(min-width:800px) {
+	.places {
+		width: 60%;
+         display: flex;
+		 padding: 10px;
+		 margin: 15px;
+	
+	}
+}
