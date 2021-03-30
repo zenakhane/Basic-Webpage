@@ -13,7 +13,7 @@ body {
 	font-style: italic;
 	background-color: goldenrod;
 	font: bolder;
-	padding: 5%;
+
 }
 
 h1 {
@@ -185,36 +185,25 @@ th {
 	background-color: goldenrod;
 }
 
-.good-hope {
+.picture{
 	float: right;
-    padding: 5px;
-    margin: 14px;
+	width: auto;
+	margin-right: 5%;
+	height: auto;
 }
-
-.museum6 {
-	float: right;
-    padding: 5px;
-    margin: 13px;
-}
-
-.city-hall {
-	float: right;
-    padding: 7px;
-    margin: 5px;
-}
-
 .content {
 	background-color: goldenrod;
 }
 
-
-
-@media only screen and(min-width:800px) {
-	.places {
-		width: 60%;
-         display: flex;
-		 padding: 10px;
-		 margin: 15px;
-	
+@media only screen and(max-width:868px) {
+	.content {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 5%;
+	}
+	museum6 {
+		float: left;
+		margin-right: 5%;
+		
 	}
 }
