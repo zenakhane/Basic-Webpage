@@ -19,6 +19,9 @@ body {
 h1 {
 	text-align: center;
 	font-style: italic;
+    padding: 40px;
+	margin: 2%;
+
 }
 
 h2 {
@@ -42,11 +45,6 @@ h3 {
 .footer {
 	background-color: palevioletred;
 	padding: 1em;
-}
-
-.clearfix {
-	overflow: auto;
-	zoom: 1;
 }
 
 .content {
@@ -73,6 +71,11 @@ th {
 	font-weight: lighter;
 	border: 1px solid black;
 }
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
 .Foreign {
 	float: left;
@@ -123,11 +126,6 @@ h1 {
 	padding: 1em;
 }
 
-.clearfix {
-	overflow: auto;
-	zoom: 1;
-}
-
 .content {
 	background-color: goldenrod;
 }
@@ -136,6 +134,7 @@ table {
 	width: 80%;
 	border: 1px solid black;
 	border-collapse: collapse;
+	
 }
 
 td {
@@ -155,6 +154,7 @@ th {
 
 .Foreign {
 	float: left;
+	clear:left;
 	background-color: goldenrod;
 	display: grid;
 	grid-template-columns: 100%;
@@ -168,10 +168,19 @@ th {
 	display: grid
 }
 
-  .places { 
-      display: flex;
-  }
+.places{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 2%;
+}
 
+.picture{
+	float: right;
+}
+
+.pict{
+	float: right;
+}
 
 @media(min-width:800px) {
 	.side-bar {
@@ -185,25 +194,15 @@ th {
 	background-color: goldenrod;
 }
 
-.picture{
-	float: right;
-	width: auto;
-	margin-right: 5%;
-	height: auto;
-}
-.content {
-	background-color: goldenrod;
+@media screen and (max-width:910px) {
+	.places{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 2%;
+	}
+
+	.pict{
+		float: left;
+	}
 }
 
-@media only screen and(max-width:868px) {
-	.content {
-	display: grid;
-	grid-template-columns: 100%;
-	grid-gap: 5%;
-	}
-	museum6 {
-		float: left;
-		margin-right: 5%;
-		
-	}
-}
