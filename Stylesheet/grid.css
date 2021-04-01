@@ -1,0 +1,18 @@
+.Rome-image{
+    float: left;
+    margin-right: 2%;
+}
+.h{
+    
+    display: flex;
+    padding-right: 5%;
+    
+}
+.picture{
+	float: right;
+    padding-right: 5%;
+}
+.pict{
+    float:right;
+    padding-right: 5%;
+}
