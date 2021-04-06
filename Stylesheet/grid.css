@@ -2,17 +2,39 @@
     float: left;
     margin-right: 2%;
 }
-.h{
+/* .h{
     
     display: flex;
     padding-right: 5%;
     
-}
+} */
 .picture{
 	float: right;
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
-.pict{
+ .pict{
     float:right;
-    padding-right: 5%;
+    /* padding-right: 5%; */
+} 
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+.places{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 2%;
 }
+@media screen and (max-width:910px) {
+	.places{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 2%;
+	}
+
+	.pict{
+		float: left;
+	}
+}
+
